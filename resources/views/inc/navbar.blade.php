@@ -13,8 +13,8 @@
           SERVICE LIST
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="#">SERVICE LIST</a>
-          <a class="dropdown-item" href="#">SERVICE DETAIL</a>
+          <a class="dropdown-item" href="/serviceList">SERVICE LIST</a>
+          <a class="dropdown-item" href="/serviceDetail">SERVICE DETAIL</a>
         </div>
       </li>
       <li class="nav-item dropdown">
@@ -22,8 +22,8 @@
           NEWS
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="#">BLOG DEFAULT</a>
-          <a class="dropdown-item" href="#">BLOG SINGLE</a>
+          <a class="dropdown-item" href="/blogDefault">BLOG DEFAULT</a>
+          <a class="dropdown-item" href="blogSingle">BLOG SINGLE</a>
         </div>
       </li>
       <li class="nav-item dropdown">
