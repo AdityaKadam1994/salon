@@ -1,0 +1,152 @@
+.landing-section {
+	background: linear-gradient(rgba(36, 39, 38, 0.5), rgba(36, 39, 38, 0.5)), rgba(36, 39, 38, 0.5);
+	background-image: url('../images/home/banner.jpg');
+	height: 600px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	
+}
+
+.landing-txt-wrapper {
+	color: #fff;
+	h1 {
+		font-weight: bold;
+		letter-spacing: 5px;
+		line-height: 55px;
+		padding-bottom: 20px;
+	}
+	p {
+		font-size: 18px;
+		padding-bottom: 20px;
+	}
+	.landing-btn {
+		background-color: $landing-button;
+		color: #fff;
+		text-transform: uppercase;
+		padding: 10px 40px;
+		border-radius: 20px;
+		font-weight: bold;
+	}
+}
+.landing-container {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+
+//Services Section
+
+.services-section {
+	padding: 70px 0;
+	.services-heading {
+		text-align: center;
+	}
+	.services-desc {
+		text-align: center;
+	}
+	.card-wrapper {
+		padding: 20px 0;
+		h4 {
+			padding: 20px 0 8px 0;
+		}
+		.service-price {
+			font-weight: bold;
+			font-size: 24px;
+			color: $landing-button;
+		}
+		.service-btn-wrapper {
+			text-align: center;
+			padding-top: 10px;
+			.service-btn {
+				background-color: $landing-button;
+				color: white;
+				padding: 10px 25px;
+				border-radius: 22px;
+				font-weight: bold;
+			}
+		}
+	}
+}
+
+//about us section
+
+.about-section {
+	padding: 80px 0;
+	background: #ececec;
+	img {
+		width: 100%;
+	}
+	.about-description {
+		background: #fff;
+		padding: 40px;
+		a {
+			color:  $landing-button;
+		}
+		p {
+			font-size: 18px;
+			padding-bottom: 20px;
+		}
+		.about-btn {
+			background: $landing-button;
+			color: #fff;
+			padding: 10px 15px;
+    		border-radius: 24px;
+		}
+	}
+}
+
+//Testimonial Section
+
+.testimonials-section {
+	padding: 90px 0;
+	.test-head {
+		text-align: center;
+	}
+	.test-description {
+		text-align: center;
+	}
+	.card-wrapper {
+		padding: 20px 0;
+		.test-content {
+			font-size: 22px;
+			font-weight: normal;
+		}
+		.author-name {
+			font-weight: bold;
+		}
+		.author-description {
+			font-size: 14px;
+			color:  $landing-button;
+		}
+	}
+}
+
+//Free section
+
+.free-section {
+	// background-image: url('../images/home/free.jpg');
+	background: linear-gradient(rgba(36, 39, 38, 0.5), rgba(36, 39, 38, 0.5)), rgba(36, 39, 38, 0.5) url('../images/home/free.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 400px;
+	margin-bottom: 50px;
+	background-position: center;
+	color: #fff;
+	position: relative;
+	.cta-container {
+		position: relative;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+	.cta-btn {
+		color: white;
+		background:   $landing-button;
+		border-radius: 24px;
+		padding: 10px 20px;
+	}
+	p {
+		font-size: 18px;
+	}
+}
