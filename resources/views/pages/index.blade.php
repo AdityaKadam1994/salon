@@ -51,10 +51,10 @@
 <section class="about-section">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-6">
+			<div class="col-lg-6">
 				<img src="{{asset('images/home/about-img.jpg')}}" alt="about-img" class="img-fluid">
 			</div>
-			<div class="col-md-6">
+			<div class="col-lg-6">
 				<div class="about-description">
 					<h2>MEN’S SALON WEBSITE TEMPLATES</h2>
 					<p>BEST EXPERIENCE EVER</p>
@@ -101,6 +101,22 @@
 				<h1 class="free-head">HAIR SALON WEBSITE TEMPLATES</h1>
 				<p class="free-descp">You can download and use these FREE HTML templates for your salon and beauty shop and store.</p>
 				<a href=""><button class="btn cta-btn">Call to action buttons</button></a>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="news-section">
+	<div class="container">
+		<h2 class="news-head">LATEST NEWS & ARTICLE</h2>
+		<div class="row news-row">
+			<div class="col-lg-6">
+				<img src="{{asset('images/home/post-img.jpg')}}" alt="" class="img-fluid">
+			</div>
+			<div class="col-lg-6">
+				<h2><a href="">COSMETICS WEBSITE TEMPLATES FREE DOWNLOAD</a></h2>
+				<p><small>Date</small>&nbsp;&nbsp;|&nbsp;&nbsp;<small>Author</small></p>
+				<p>Cras dolor arcu porttitor atfinibus idcondi mentum uttu rpis one fuscenec justo idle libero pharetra posuere aliq uam tempus is porttitor atfinibus.</p>
+				<a href=""><button class="btn read-btn">READ MORE</button></a>
 			</div>
 		</div>
 	</div>
