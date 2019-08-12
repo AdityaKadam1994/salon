@@ -1,0 +1,128 @@
+body {
+  font-family: 'Red Hat Display', sans-serif; }
+
+.margintop {
+  margin-top: 80px; }
+
+.main-nav {
+  height: 80px;
+  background: #fff !important;
+  border-bottom: 1px solid #d6d6d6; }
+  .main-nav .nav-item {
+    font-size: 14px;
+    padding: 0 5px;
+    font-weight: bold; }
+
+.landing-section {
+  background: linear-gradient(rgba(36, 39, 38, 0.5), rgba(36, 39, 38, 0.5)), rgba(36, 39, 38, 0.5);
+  background-image: url("../images/home/banner.jpg");
+  height: 600px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.landing-txt-wrapper {
+  color: #fff; }
+  .landing-txt-wrapper h1 {
+    font-weight: bold;
+    letter-spacing: 5px;
+    line-height: 55px;
+    padding-bottom: 20px; }
+  .landing-txt-wrapper p {
+    font-size: 18px;
+    padding-bottom: 20px; }
+  .landing-txt-wrapper .landing-btn {
+    background-color: #aa9144;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px 40px;
+    border-radius: 20px;
+    font-weight: bold; }
+
+.landing-container {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%); }
+
+.services-section {
+  padding: 70px 0; }
+  .services-section .services-heading {
+    text-align: center; }
+  .services-section .services-desc {
+    text-align: center; }
+  .services-section .card-wrapper {
+    padding: 20px 0; }
+    .services-section .card-wrapper h4 {
+      padding: 20px 0 8px 0; }
+    .services-section .card-wrapper .service-price {
+      font-weight: bold;
+      font-size: 24px;
+      color: #aa9144; }
+    .services-section .card-wrapper .service-btn-wrapper {
+      text-align: center;
+      padding-top: 10px; }
+      .services-section .card-wrapper .service-btn-wrapper .service-btn {
+        background-color: #aa9144;
+        color: white;
+        padding: 10px 25px;
+        border-radius: 22px;
+        font-weight: bold; }
+
+.about-section {
+  padding: 80px 0;
+  background: #ececec; }
+  .about-section img {
+    width: 100%; }
+  .about-section .about-description {
+    background: #fff;
+    padding: 40px; }
+    .about-section .about-description a {
+      color: #aa9144; }
+    .about-section .about-description p {
+      font-size: 18px;
+      padding-bottom: 20px; }
+    .about-section .about-description .about-btn {
+      background: #aa9144;
+      color: #fff;
+      padding: 10px 15px;
+      border-radius: 24px; }
+
+.testimonials-section {
+  padding: 90px 0; }
+  .testimonials-section .test-head {
+    text-align: center; }
+  .testimonials-section .test-description {
+    text-align: center; }
+  .testimonials-section .card-wrapper {
+    padding: 20px 0; }
+    .testimonials-section .card-wrapper .test-content {
+      font-size: 22px;
+      font-weight: normal; }
+    .testimonials-section .card-wrapper .author-name {
+      font-weight: bold; }
+    .testimonials-section .card-wrapper .author-description {
+      font-size: 14px;
+      color: #aa9144; }
+
+.free-section {
+  background: linear-gradient(rgba(36, 39, 38, 0.5), rgba(36, 39, 38, 0.5)), rgba(36, 39, 38, 0.5) url("../images/home/free.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+  margin-bottom: 50px;
+  background-position: center;
+  color: #fff;
+  position: relative; }
+  .free-section .cta-container {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%); }
+  .free-section .cta-btn {
+    color: white;
+    background: #aa9144;
+    border-radius: 24px;
+    padding: 10px 20px; }
+  .free-section p {
+    font-size: 18px; }
+
+/*# sourceMappingURL=main.css.map */
