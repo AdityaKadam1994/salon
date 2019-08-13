@@ -185,3 +185,35 @@
 	}
 
 }
+
+
+/*
+ **
+ *** Mediaqueries*/
+
+@media screen and (max-width: 991px) {
+	.landing-txt-wrapper {
+		h1 {
+			line-height: 45px;
+			letter-spacing: 2px;
+			font-size: 30px;
+		}
+	}
+	.news-section {
+		.news-row {
+			img {
+				margin-bottom: 15px;
+				width: 100%;
+			}
+		}
+	}
+}
+
+
+@media screen and (max-width: 500px) {
+	.about-section {
+		.about-description {
+			padding: 10px;
+		}
+	}
+}

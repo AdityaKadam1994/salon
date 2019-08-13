@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light main-nav fixed-top">
   <div class="container">
     <a class="navbar-brand" href="/">MAN HAIR SALON</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
@@ -47,3 +47,85 @@
     </div>
   </div>
 </nav>
+<div class="backdrop"></div>
+<div class="mobile-nav">
+  <div id="accordion">
+      <ul class="mob-nav-list">
+        <li class="nav-item active">
+            <div class="">
+              <div class="nav-groups">
+                <h5 class="mb-0"><a href="">
+                  <button class="btn" data-toggle="collapse">
+                    HOME
+                  </button></a>
+                </h5>
+              </div>
+            </div>
+        </li>
+        <li class="nav-item">
+            <div class="">
+              <div class="nav-groups" id="headingOne">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    SERVICES LIST
+                  </button>
+                </h5>
+              </div>
+
+              <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                <div class="inner-content">
+                  <ul class="inner-mob-list">
+                    <li><a href="">SERVICE LIST</a></li>
+                    <li><a href="">SERVICE DETAIL</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+        </li>
+        <li class="nav-item">
+            <div class="">
+              <div class="nav-groups" id="headingTwo">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                    FEATURES
+                  </button>
+                </h5>
+              </div>
+
+              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                <div class="inner-content">
+                  <ul class="inner-mob-list">
+                    <li><a href="">TESTIMONIAL</a></li>
+                    <li><a href="">STYLE GUIDE</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+        </li>
+        <li class="nav-item">
+            <div class="">
+              <div class="nav-groups">
+                <h5 class="mb-0"><a href="">
+                  <button class="btn" data-toggle="collapse">
+                    CONTACT
+                  </button></a>
+                </h5>
+              </div>
+            </div>
+        </li>
+        <li class="nav-item">
+            <div class="">
+              <div class="nav-groups">
+                <h5 class="mb-0"><a href="">
+                  <button class="btn" data-toggle="collapse">
+                    STYLE GUIDE
+                  </button></a>
+                </h5>
+              </div>
+            </div>
+        </li>
+              
+      </ul>
+  </div>
+
+</div>

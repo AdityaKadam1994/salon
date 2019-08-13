@@ -2,7 +2,7 @@
 	<div class="container">
 		<div class="footer-wrapper">
 			<div class="row">
-				<div class="col-md-4">
+				<div class="footer-box">
 					<h3 class="footer-heads">SALON ADDRESS</h3>
 					<ul class="footer-list">
 						<li class="footer-links"><i class="fa fa-map-marker"></i> 4958 Norman Street Los Angeles, CA 90042</li>
@@ -12,7 +12,7 @@
 					</ul>
 					
 				</div>
-				<div class="col-md-4">
+				<div class="footer-box">
 					<h3 class="footer-heads">SOCIAL FEED</h3>
 					<ul class="footer-list">
 						<li class="footer-links"><a href=""><i class="fa fa-facebook"></i>Facebook</a></li>
@@ -23,7 +23,7 @@
 						
 					</ul>
 				</div>
-				<div class="col-md-4">
+				<div class="footer-box">
 					<h3 class="footer-heads">NEWSLETTERS</h3>
 					<p class="footer-newsletter">Enter your email address to receive new patient information and other useful information right to your inbox.</p>
 					<div class="newsletter-form-wrapper">
