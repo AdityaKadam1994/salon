@@ -1,0 +1,64 @@
+.main-footer {
+	color: white;
+	background: black;
+	font-weight: 100;
+	padding: 40px 0;
+	.footer-wrapper {
+		background-color: #282725;
+		border-radius: 10px;
+		padding: 25px 30px;
+	}
+	.footer-heads {
+		margin-bottom: 30px;
+		font-weight: bold;
+	}
+	.footer-list {
+		list-style: none;
+		padding: 0 0 0 10px;
+	}
+	.footer-links {
+		padding: 8px 0;
+		color: $footer-links;
+	}
+	i {
+		margin-right: 10px;
+	}
+	a {
+		color: $footer-links;
+		&:hover {
+			color: $landing-button;
+		}
+	}
+	.footer-newsletter {
+		color: $footer-links;
+	}
+	.email-input {
+		background: $input-background;
+		border: none;
+		padding: 24px 18px;
+    	border-radius: 30px 0 0 30px;
+	}
+	.newsletter-form {
+		margin-top: 30px;
+	}
+	.subcribe-btn {
+		border-radius: 30px 30px 30px 0;
+		background: $landing-button;
+		border: none;
+		color: white;
+		font-weight: bold; 
+	}
+	.footer-box {
+		padding: 0 5px;
+	}
+}
+
+/*
+ **
+ *** Mediaqueries*/
+
+@media screen and (min-width: 992px) {
+	.footer-box {
+		width: calc(100%/3);
+	}
+}
