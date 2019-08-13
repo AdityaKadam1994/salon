@@ -27,4 +27,3 @@ Route::get('/blogSingle','PagesController@blogSingle');
 Route::get('/testimonial','PagesController@testimonial');
 
 Route::resource('admin','ServicesController');
-//Route::resource('/storeService','ServicesController@store');
