@@ -33,7 +33,6 @@
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
             <a class="dropdown-item" href="/testimonial">TESTIMONIAL</a>
-            <a class="dropdown-item" href="/styleGuide">STYLE GUIDE</a>
           </div>
         </li>
         <li class="nav-item">
@@ -96,7 +95,7 @@
                 <div class="inner-content">
                   <ul class="inner-mob-list">
                     <li><a href="">TESTIMONIAL</a></li>
-                    <li><a href="">STYLE GUIDE</a></li>
+                    
                   </ul>
                 </div>
               </div>
@@ -127,5 +126,4 @@
               
       </ul>
   </div>
-
 </div>

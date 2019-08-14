@@ -411,4 +411,31 @@ body {
     font-weight: bold;
     font-size: 14px; }
 
+.all-testimonials-section {
+  padding: 50px 0; }
+  .all-testimonials-section .testimonial-wrapper {
+    display: flex;
+    flex-wrap: wrap; }
+  .all-testimonials-section .testimonial-box {
+    flex-basis: calc(100%/3);
+    padding: 0 10px;
+    margin-bottom: 30px; }
+  .all-testimonials-section .test-content {
+    font-size: 18px; }
+  .all-testimonials-section .test-author {
+    font-weight: bold;
+    margin-bottom: 0; }
+  .all-testimonials-section .cust-details {
+    color: #aa9144; }
+
+/*
+ **
+ *** Mediaqueries*/
+@media screen and (max-width: 600px) {
+  .all-testimonials-section .testimonial-box {
+    flex-basis: calc(100%/2); } }
+@media screen and (max-width: 600px) {
+  .all-testimonials-section .testimonial-box {
+    flex-basis: calc(100%/1); } }
+
 /*# sourceMappingURL=main.css.map */
