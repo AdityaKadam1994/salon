@@ -391,5 +391,24 @@ body {
     font-size: 26px; }
   .service-details .service-head {
     font-size: 26px; } }
+.contact-us-section {
+  padding: 60px 0; }
+  .contact-us-section .contact-info-wrapper {
+    background: #f4f1ec;
+    padding: 25px;
+    border-radius: 10px;
+    margin-bottom: 30px; }
+  .contact-us-section .contact-head {
+    margin-bottom: 0; }
+  .contact-us-section a {
+    color: #aa9144;
+    text-decoration: none; }
+  .contact-us-section .contact-submit-btn {
+    background: #aa9144;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 24px;
+    font-weight: bold;
+    font-size: 14px; }
 
 /*# sourceMappingURL=main.css.map */

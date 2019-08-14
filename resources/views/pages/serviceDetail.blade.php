@@ -70,7 +70,19 @@
             </div>
 
         </div>
-
+    </div>
+</section>
+<section class="service-appointment">
+    <div class="container">
+        <div class="row appointment-row">
+            <div class="col-lg-8">
+                <h1 class="appoint-head"> <strong>BOOK YOUR ONLINE APPOINTMENT</strong></h1>
+                <p>Call to action button example for booking appointment for patients.</p>
+            </div>
+            <div class="col-lg-4">
+               <button class="btn cta-btn"> <a href="" class="ml-auto">Call to action Button</a></button>
+            </div>
+        </div>  
     </div>
 </section>
 @endsection
