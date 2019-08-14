@@ -5,6 +5,19 @@ body {
 .margintop {
   margin-top: 80px; }
 
+.breadcrumb-wrapper {
+  text-align: center; }
+  .breadcrumb-wrapper .breadcrumb-list {
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+    padding: 0; }
+    .breadcrumb-wrapper .breadcrumb-list li {
+      display: inline-block; }
+  .breadcrumb-wrapper a {
+    color: #aa9144;
+    text-decoration: none; }
+
 .main-nav {
   height: 80px;
   background: #fff !important;
@@ -121,7 +134,8 @@ body {
     background: #aa9144;
     border: none;
     color: white;
-    font-weight: bold; }
+    font-weight: bold;
+    font-size: 14px; }
   .main-footer .footer-box {
     padding: 0 5px; }
 
@@ -283,5 +297,53 @@ body {
 @media screen and (max-width: 500px) {
   .about-section .about-description {
     padding: 10px; } }
+.service-landing {
+  background: linear-gradient(rgba(36, 39, 38, 0.5), rgba(36, 39, 38, 0.5)), rgba(36, 39, 38, 0.5) url("../images/home/banner.jpg");
+  background-size: cover;
+  height: 300px; }
+  .service-landing h1 {
+    font-weight: normal; }
+
+.service-appointment {
+  background: #aa9144;
+  padding: 40px 0;
+  color: white; }
+  .service-appointment a {
+    color: #aa9144;
+    text-decoration: none; }
+    .service-appointment a:hover {
+      color: white; }
+  .service-appointment .cta-btn {
+    color: #aa9144;
+    background: #fff;
+    font-size: 18px;
+    padding: 20px 30px;
+    text-transform: uppercase;
+    border-radius: 34px;
+    font-weight: bold;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%); }
+    .service-appointment .cta-btn:hover {
+      background: #8e7424; }
+      .service-appointment .cta-btn:hover a {
+        color: white; }
+
+/*
+ **
+ *** Mediaqueries*/
+@media screen and (max-width: 768px) {
+  .service-appointment .appoint-head {
+    font-size: 30px; } }
+@media screen and (max-width: 767px) {
+  .service-appointment .cta-btn {
+    font-size: 16px;
+    padding: 15px 20px; } }
+@media screen and (max-width: 375px) {
+  .service-appointment .appoint-head {
+    font-size: 26px; }
+  .service-appointment .cta-btn {
+    font-size: 16px;
+    padding: 12px 10px; } }
 
 /*# sourceMappingURL=main.css.map */
