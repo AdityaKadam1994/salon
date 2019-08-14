@@ -345,5 +345,51 @@ body {
   .service-appointment .cta-btn {
     font-size: 16px;
     padding: 12px 10px; } }
+.service-details {
+  padding: 50px 0; }
+  .service-details .services-desc {
+    margin-bottom: 40px; }
+  .service-details .service-wrapper {
+    display: flex;
+    border: 1px solid #aa9144;
+    margin-bottom: 80px; }
+  .service-details .img-box {
+    flex-basis: 40%; }
+  .service-details .service-description {
+    flex-basis: 60%;
+    padding: 20px 30px;
+    font-size: 18px; }
+  .service-details .service-head {
+    color: #aa9144; }
+  .service-details .price {
+    font-size: 20px;
+    color: #aa9144;
+    margin-bottom: 30px; }
+  .service-details .readmore-btn {
+    background: #aa9144;
+    padding: 12px 30px;
+    border-radius: 24px; }
+    .service-details .readmore-btn a {
+      color: white;
+      text-decoration: none; }
+
+/*
+ **
+ *** Mediaqueries*/
+@media screen and (max-width: 600px) {
+  .service-details .service-wrapper {
+    flex-direction: column; }
+    .service-details .service-wrapper:nth-child(even) {
+      flex-direction: column-reverse; }
+  .service-details .img-box img {
+    width: 100%; } }
+@media screen and (max-width: 320px) {
+  .landing-txt-wrapper h1 {
+    font-size: 26px; }
+
+  .service-details .services-heading {
+    font-size: 26px; }
+  .service-details .service-head {
+    font-size: 26px; } }
 
 /*# sourceMappingURL=main.css.map */

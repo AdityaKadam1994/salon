@@ -25,7 +25,10 @@ class PagesController extends Controller
     public function serviceList(){
         return view('pages.serviceList');
     }
-
+    public function serviceDetail(){
+        return view('pages.serviceDetail');
+    }
+    
     public function styleGuide(){
         return view('pages.styleGuide');
     }
