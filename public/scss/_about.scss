@@ -1,0 +1,54 @@
+.aboutus-section {
+    padding: 50px 0;
+    .about-head {
+        text-align: center;
+    }
+    .about-description {
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: 30px;
+    }
+    .about-row {
+        img {
+            width: 100%;
+        }
+    }
+    .about-img-description {
+        font-size: 18px;
+    }
+}
+
+.choose-us-section {
+    padding: 50px 0;
+    .choose-head {
+        text-align: center;
+    }
+    .choose-description {
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: 30px;
+    }
+    .choose-img-boxes {     
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 400px;
+        padding: 0 50px;
+        margin: 15px 0;
+        &:first-child {
+            background: url('../images/about/page-2_img02.jpg');
+        }
+    }
+    .img-overlay-txt {
+        color: white;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        padding: 10px 0;
+        border-top: 1px solid $landing-button;
+        border-bottom: 1px solid $landing-button;
+    }
+    .choose-row {
+        margin-bottom: 30px;
+    }
+    
+}

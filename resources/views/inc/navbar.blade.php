@@ -18,14 +18,8 @@
             <a class="dropdown-item" href="/serviceDetail">SERVICE DETAIL</a>
           </div>
         </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="/news" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            NEWS
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="/blogDefault">BLOG DEFAULT</a>
-            <a class="dropdown-item" href="blogSingle">BLOG SINGLE</a>
-          </div>
+        <li class="nav-item">
+          <a class="nav-link" href="/about">ABOUT <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="/features" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

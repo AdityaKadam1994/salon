@@ -437,5 +437,44 @@ body {
 @media screen and (max-width: 600px) {
   .all-testimonials-section .testimonial-box {
     flex-basis: calc(100%/1); } }
+.aboutus-section {
+  padding: 50px 0; }
+  .aboutus-section .about-head {
+    text-align: center; }
+  .aboutus-section .about-description {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 30px; }
+  .aboutus-section .about-row img {
+    width: 100%; }
+  .aboutus-section .about-img-description {
+    font-size: 18px; }
+
+.choose-us-section {
+  padding: 50px 0; }
+  .choose-us-section .choose-head {
+    text-align: center; }
+  .choose-us-section .choose-description {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 30px; }
+  .choose-us-section .choose-img-boxes {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    padding: 0 50px;
+    margin: 15px 0; }
+    .choose-us-section .choose-img-boxes:first-child {
+      background: url("../images/about/page-2_img02.jpg"); }
+  .choose-us-section .img-overlay-txt {
+    color: white;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px 0;
+    border-top: 1px solid #aa9144;
+    border-bottom: 1px solid #aa9144; }
+  .choose-us-section .choose-row {
+    margin-bottom: 30px; }
 
 /*# sourceMappingURL=main.css.map */

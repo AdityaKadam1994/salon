@@ -22,6 +22,10 @@ class PagesController extends Controller
         return view('pages.news');
     }
 
+    public function about(){
+        return view('pages.about');
+    }
+
     public function serviceList(){
         return view('pages.serviceList');
     }
