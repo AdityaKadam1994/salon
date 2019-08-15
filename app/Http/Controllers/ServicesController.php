@@ -39,24 +39,50 @@ class ServicesController extends Controller
      */
     public function store(Request $request)
     {
-        $services = new Service();
+        // $services = new Service();
 
-        $services->heading = $request->input('heading');
-        $services->description = $request->input('description');
-        $services->price = $request->input('price');
-        
-        if($request->hasfile('image')){
-            $file = $request->file('image');
-            $extension = $file->getClientOriginalExtension();
-            $filename = time() . '.' . $extension;
-            $file->move('uploads/service/', $filename);
-            $services->image = $filename;
-        } else {
-            return $request;
-            $services->image = '';
+        // $services->name = $request->heading;
+        // $services->type = $request->description;
+        // $services->price = $request->price;
+
+    
+        // if($request->hasfile('image')){
+        //          $file = $request->file('image');
+        //          $extension = $file->getClientOriginalExtension();
+        //          $filename = time() . '.' . $extension;
+        //          $file->move('/uploads/service/', $filename);
+        //          $services->image = $filename;
+
+                 
+        //      } 
+
+        //      $services->save();
+
+        if($request->ajax())
+        {
+            return "True request!";
         }
-        $services->save();
-        return redirect('admin')->with('services',$services);
+             
+        //return response()->json(['success'=>'Got Simple Ajax Request.']);
+        //return redirect('admin')->json($services);
+        //return redirect('admin/index')->with('services',$services);
+
+        // $services->heading = $request->input('heading');
+        // $services->description = $request->input('description');
+        // $services->price = $request->input('price');
+        
+        // if($request->hasfile('image')){
+        //     $file = $request->file('image');
+        //     $extension = $file->getClientOriginalExtension();
+        //     $filename = time() . '.' . $extension;
+        //     $file->move('uploads/service/', $filename);
+        //     $services->image = $filename;
+        // } else {
+        //     return $request;
+        //     $services->image = '';
+        // }
+        // $services->save();
+        // return redirect('admin')->with('services',$services);
     }
 
     /**

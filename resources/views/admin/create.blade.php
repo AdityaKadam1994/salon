@@ -2,7 +2,13 @@
 @section('content')
 <div class="container">
 <div class="jumbotron">
-<form action="{{route('admin.store')}}" method="POST" enctype="multipart/form-data">
+<div class="alert alert-danger print-error-msg" style="display:none">
+        <ul></ul>
+    </div>
+<!-- <form method="POST" action="{{route ('admin.store')}}" enctype="multipart/form-data" class="service-form"> -->
+<form>
+
+@method('put')
 @csrf
 
   <div class="form-group">
@@ -31,9 +37,55 @@
   </div>
   </div><br>
 
-  <button type="submit" class="btn btn-primary">Save Service</button>
+  <button type="submit" class="btn btn-primary submit-service">Save Service</button>
 </form>
 </div>
 </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+
+<script type="text/javascript">
+
+
+    $(document).ready(function() {
+        $(".submit-service").click(function(e){
+            e.preventDefault();
+
+
+            var _token = $("input[name='_token']").val();
+            var heading = $("input[name='heading']").val();
+            var description = $("input[name='description']").val();
+            var price = $("input[name='price']").val();
+            var image = $("input[name='image']").val();
+
+
+            $.ajax({
+                url: "/admin/store",
+                type:'POST',
+                data: {_token:_token, heading:heading, description:description, price:price, image:image},
+                success: function(data) {
+                    if($.isEmptyObject(data.error)){
+                        alert(data.success);
+                    }else{
+                        printErrorMsg(data.error);
+                    }
+                }
+            });
+
+
+        }); 
+
+
+        function printErrorMsg (msg) {
+            $(".print-error-msg").find("ul").html('');
+            $(".print-error-msg").css('display','block');
+            $.each( msg, function( key, value ) {
+                $(".print-error-msg").find("ul").append('<li>'+value+'</li>');
+            });
+        }
+    });
+
+
+</script>
+
 @endsection
 
