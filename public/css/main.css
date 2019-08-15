@@ -431,7 +431,7 @@ body {
 /*
  **
  *** Mediaqueries*/
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 767px) {
   .all-testimonials-section .testimonial-box {
     flex-basis: calc(100%/2); } }
 @media screen and (max-width: 600px) {
@@ -464,8 +464,14 @@ body {
     height: 400px;
     padding: 0 50px;
     margin: 15px 0; }
-    .choose-us-section .choose-img-boxes:first-child {
-      background: url("../images/about/page-2_img02.jpg"); }
+  .choose-us-section .img-box-1 {
+    background: url("../images/about/page-2_img02.jpg"); }
+  .choose-us-section .img-box-2 {
+    background: url("../images/about/page-2_img03.jpg"); }
+  .choose-us-section .img-box-3 {
+    background: url("../images/about/page-2_img04.jpg"); }
+  .choose-us-section .img-box-4 {
+    background: url("../images/about/page-2_img04.jpg"); }
   .choose-us-section .img-overlay-txt {
     color: white;
     position: relative;
@@ -474,7 +480,131 @@ body {
     padding: 10px 0;
     border-top: 1px solid #aa9144;
     border-bottom: 1px solid #aa9144; }
-  .choose-us-section .choose-row {
+
+.staff-section {
+  padding: 30px 0; }
+  .staff-section .staff-head {
+    text-align: center; }
+  .staff-section .staff-description {
+    text-align: center;
+    text-transform: uppercase;
     margin-bottom: 30px; }
+  .staff-section .staff-name {
+    color: #aa9144;
+    margin-bottom: 20px;
+    text-align: center; }
+  .staff-section .staff-img {
+    margin-bottom: 20px; }
+
+.history-section {
+  padding: 30px 0; }
+  .history-section .history-wrapper {
+    background: url("../images/about/page-2_img10.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; }
+  .history-section .history-head {
+    text-align: center; }
+  .history-section .history-description {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 30px; }
+  .history-section .content {
+    text-align: center;
+    color: white;
+    padding: 60px 70px; }
+    .history-section .content p {
+      font-size: 18px; }
+  .history-section .year {
+    font-size: 50px;
+    color: #aa9144;
+    font-weight: bold;
+    position: relative; }
+    .history-section .year:before {
+      content: '';
+      border-bottom: 1px solid #aa9144;
+      width: 150px;
+      position: absolute;
+      bottom: 15%;
+      left: 29%; }
+    .history-section .year:after {
+      content: '';
+      border-bottom: 1px solid #aa9144;
+      width: 150px;
+      position: absolute;
+      bottom: 15%; }
+  .history-section .money-details {
+    color: #aa9144;
+    font-weight: bold; }
+  .history-section .tilde {
+    font-weight: bold;
+    color: #aa9144;
+    position: relative; }
+    .history-section .tilde:before {
+      content: '';
+      border-bottom: 1px solid #aa9144;
+      width: 150px;
+      position: absolute;
+      bottom: 49%;
+      left: 32%; }
+    .history-section .tilde:after {
+      content: '';
+      border-bottom: 1px solid #aa9144;
+      width: 150px;
+      bottom: 49%;
+      right: 32%;
+      position: absolute; }
+
+/*
+ **
+ *** Mediaqueries*/
+@media screen and (max-width: 1024px) {
+  .history-section .year:before {
+    left: 23%; }
+  .history-section .year:after {
+    right: 23%; }
+  .history-section .tilde:before {
+    left: 28%; }
+  .history-section .tilde:after {
+    right: 28%; } }
+@media screen and (max-width: 991px) {
+  .history-section .content {
+    padding: 60px 25px; }
+  .history-section .year:before {
+    left: 15%; }
+  .history-section .year:after {
+    right: 15%; }
+  .history-section .tilde:before {
+    left: 20%; }
+  .history-section .tilde:after {
+    right: 20%; } }
+@media screen and (max-width: 767px) {
+  .img-center {
+    text-align: center; }
+
+  .history-section .year:before {
+    left: 0%; }
+  .history-section .year:after {
+    right: 0%; }
+  .history-section .tilde:before {
+    left: 0%; }
+  .history-section .tilde:after {
+    right: 0%; } }
+@media screen and (max-width: 600px) {
+  .history-section .year:before {
+    width: calc(100%/3); }
+  .history-section .year:after {
+    width: calc(100%/3); }
+  .history-section .tilde:before {
+    width: calc(100%/3); }
+  .history-section .tilde:after {
+    width: calc(100%/3); } }
+@media screen and (max-width: 375px) {
+  .history-section .content {
+    padding: 20px; } }
+@media screen and (max-width: 320px) {
+  .choose-us-section .choose-img-boxes {
+    padding: 0 30px; } }
 
 /*# sourceMappingURL=main.css.map */
