@@ -3,11 +3,13 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Service;
 
 class PagesController extends Controller
 {
     public function index(){
-        return view('pages.index');
+        $services = Service::All();
+        return view('pages.index')->with('services',$services);
     }
     
     public function contact(){
@@ -39,5 +41,10 @@ class PagesController extends Controller
     }
     public function testimonial(){
         return view('pages.testimonial');
+    }
+
+    public function demo(){
+        return $demo = Service::All();
+        //return view('pages.demo')->with('demo',$demo);
     }
 }

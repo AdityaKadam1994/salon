@@ -25,5 +25,10 @@ Route::get('/serviceDetail','PagesController@serviceDetail');
 Route::get('/blogDefault','PagesController@blogDefault');
 Route::get('/blogSingle','PagesController@blogSingle');
 Route::get('/testimonial','PagesController@testimonial');
+Route::get('/demo','PagesController@demo');
 
-Route::resource('admin','ServicesController');
+Route::resource('/admin','ServicesController');
+
+
+
+
