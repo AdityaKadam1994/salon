@@ -21,26 +21,32 @@
 		<p class="services-desc">WE HELP YOU LOOK GREAT</p>
 		<div class="card-wrapper">
 			<div class="row">
-			@foreach($services as $service)
+			<!-- @foreach($services as $service)
 				<div class="col-sm-4">
 					<img src="{{asset('uploads/service/'. $service->image)}}" alt="service-icon-1" class="img-fluid">
 					<h4 class="service-head">{{$service->heading}}</h4>
 					<p class="service-description">{{$service->description}}</p>
 					<p class="service-price">$ {{$service->price}}</p>
 				</div>
-			@endforeach
-				<!-- <div class="col-sm-4">
-					<img src="{{asset('images/home/service-icon-2.png')}}" alt="service-icon-1" class="img-fluid">
+			@endforeach -->
+				<div class="col-sm-4">
+					<img src="{{asset('images/home/service-icon-1.png')}}" alt="service-icon-1" class="img-fluid">
 					<h4 class="service-head">MUSTACHE TRIM</h4>
 					<p class="service-description">Free Responsive HTML5 CSS3 Website Template for hair salon and beauty salon.</p>
 					<p class="service-price">$45</p>
 				</div>
 				<div class="col-sm-4">
-					<img src="{{asset('images/home/service-icon-3.png')}}" alt="service-icon-1" class="img-fluid">
+					<img src="{{asset('images/home/service-icon-2.png')}}" alt="service-icon-2" class="img-fluid">
+					<h4 class="service-head">MUSTACHE TRIM</h4>
+					<p class="service-description">Free Responsive HTML5 CSS3 Website Template for hair salon and beauty salon.</p>
+					<p class="service-price">$45</p>
+				</div>
+				<div class="col-sm-4">
+					<img src="{{asset('images/home/service-icon-3.png')}}" alt="service-icon-3" class="img-fluid">
 					<h4 class="service-head">BEARD TRIM</h4>
 					<p class="service-description">Responsive website templates free download html with css.</p>
 					<p class="service-price">$45</p>
-				</div> -->
+				</div>
 			</div>
 			<div class="service-btn-wrapper">
 				<a href=""><button class="btn service-btn">View All Service</button></a>

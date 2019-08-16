@@ -12,6 +12,10 @@ $(document).ready(function() {
 	t1.fromTo(logo, 1.5 ,{x: "-100%"},{x:"0%",ease: Power2.easeInOut})
 	.fromTo(nav_list, 1.5, {x: "100%"},{x:"0%",ease: Power2.easeInOut},"-=1.5"); 
 
+	//Light Gallery
+
+	$('.gallery-wrapper').lightGallery();
+
 	$.ajax({
 		method: 'GET',
 		url: '/demo',

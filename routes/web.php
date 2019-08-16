@@ -26,6 +26,7 @@ Route::get('/blogDefault','PagesController@blogDefault');
 Route::get('/blogSingle','PagesController@blogSingle');
 Route::get('/testimonial','PagesController@testimonial');
 Route::get('/about','PagesController@about');
+Route::get('/gallery','PagesController@gallery');
 Route::get('/demo','PagesController@demo');
 Route::resource('/admin','ServicesController');
 

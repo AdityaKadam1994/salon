@@ -18,9 +18,7 @@
             <a class="dropdown-item" href="/serviceDetail">SERVICE DETAIL</a>
           </div>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/about">ABOUT <span class="sr-only">(current)</span></a>
-        </li>
+        
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="/features" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             FEATURES
@@ -30,11 +28,16 @@
           </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/contact">CONTACT</a>
+          <a class="nav-link" href="/gallery">GALLERY</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/styleGuide">STYLE GUIDE</a>
+          <a class="nav-link" href="/about">ABOUT <span class="sr-only">(current)</span></a>
         </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="/contact">CONTACT</a>
+        </li>
+        
         
       </ul>
     </div>
