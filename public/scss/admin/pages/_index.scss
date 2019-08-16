@@ -1,0 +1,21 @@
+a {
+    color: black;
+    &:hover {
+        color: black;
+    }
+}
+.app-header {
+    position: fixed;
+}
+.admin-sidebar {
+    .sidebar {
+        margin-left: 0 !important;
+        height: 100vh;
+        position: fixed;
+        margin-top: 55px;
+    }
+    .main {
+        margin-left: 200px;
+        margin-top: 60px;
+    }
+}

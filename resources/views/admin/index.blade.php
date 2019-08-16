@@ -1,45 +1,55 @@
 @extends('layouts.admin')
 @section('content')
-<div class="container">
-<div class="jumbotron">  
-<a href="{{ route('admin.create') }}" class="btn btn-primary">Add Service</a>
-<br><br>
-<table class="table table-hover table-dark">
-  <thead>
-    <tr>
-      <th scope="col">ID</th>
-      <th scope="col">Image</th>
-      <th scope="col">Heading</th>
-      <th scope="col">Description</th>
-      <th scope="col">Price</th>
-      <th scope="col">Show</th>
-      <th scope="col">Edit</th>
-      <th scope="col">Delete</th>
-    </tr>
-  </thead>
-  <tbody>
-  @foreach($services as $service)
-    <tr>
-      <th scope="row">{{ ++$i }}</th>
-      <td><img src="{{asset('uploads/service/'. $service->image)}}" width="40px" height="40px" alt="Image"</td>
-      <td>{{$service->heading}}</td>
-      <td>{{$service->description}}</td>
-      <td>{{$service->price}}</td>
-      <form action="{{ route('admin.destroy',$service->id) }}" method="POST">
-      <td><a class="btn btn-outline-primary" href="{{ route('admin.show',$service->id) }}">Show</a></td>
-      
-      <td><a class="btn btn-outline-primary" href="{{ route('admin.edit',$service->id) }}">Edit</a></td>
-   
-      @csrf
-      @method('DELETE')
-      <td><button type="submit" class="btn btn-outline-danger">Delete</button></td>
-      </form>
-    </tr>  
-    @endforeach  
-  </tbody>
-</table>
-{{$services->links()}}
-</div>
-</div>
+  <header class="app-header navbar fixed-top">
+    <!-- Header content here -->
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/admin">MAN HAIR SALON</a>
+    </div>
+  </header>
+  <div class="app-body admin-sidebar">
+    <div class="sidebar">
+      <!-- Sidebar content here -->
+      <nav class="sidebar-nav ps ps--active-y">
+        <ul class="nav">
+          <li class="nav-item nav-dropdown active open">
+            <a class="nav-link  nav-dropdown-toggle " href="#">
+            HOME
+            </a>
+            <ul class="nav-dropdown-items">
+              <li class="nav-item ">
+              <a class="nav-link" href="">
+              Services
+              </a>
+              </li>
+            </ul>
+          </li>
+
+        </ul>
+      </nav>
+    </div>
+    <main class="main">
+      <div class="container-fluid">
+        <div class="row">
+            <div class="col-12  col-xl-12 ">
+              <div class="card">
+                <div class="card-body">
+                  <h1 class="docs-title" id="content">Migrating to v2.0.0</h1>
+                  <p class="docs-lead">CoreUI 2.0.0 is a major rewrite of the entire project. The most notable changes are summarized below, followed by more specific changes to relevant components.</p>
+                </div>
+                
+                
+              </div>
+            </div>
+        </div>
+        
+      </div>
+    </main>
+    <aside class="aside-menu">
+      <!-- Aside menu content here -->
+    </aside>
+  </div>
+  <footer class="app-footer">
+    <!-- Footer content here -->
+  </footer>
 
 @endsection
